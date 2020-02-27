@@ -1,0 +1,364 @@
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.header {
+    background-color: #9acd32;
+    padding: 0px 4px;
+    height: 55px;
+    width: auto;
+
+}
+
+.link {
+    display: inline-block;
+    margin: 0 4px;
+
+}
+
+
+.links {
+    height: 73px;
+    background-color: #83b228;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;;
+}
+
+.dropdown {
+
+    margin: 0px 4px;
+}
+
+.drop-link {
+    display: inline-block;
+}
+
+
+.logo-and-link > div {
+    display: inline-block;
+}
+
+.item {
+    background-color: #f1f1f1;
+    height: 30px;
+}
+
+.items-link {
+    display: inline-block;
+    margin: 4px 16px;
+}
+
+.background {
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+
+}
+
+
+.button-click {
+    margin: 4px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links > a {
+    text-decoration: none;
+}
+
+.text-white:hover {
+
+}
+
+.link-button {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space {
+    height: 50px;
+}
+
+.sliding {
+    background-color: #709b1d;
+    display: flex;
+    justify-content: center;
+}
+
+.page-item {
+    margin: 12px 24px;
+    background-color: #709b1d;
+}
+
+.image {
+    height: 300px;
+    padding: 2px;
+    border: #0b2e13 1px solid;
+    margin: 4px;
+
+
+}
+
+.image1 {
+    background-image: url("../img/2.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image2 {
+    background-image: url("../img/3.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image3 {
+    background-image: url("../img/4.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image4 {
+    background-image: url("../img/5.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image5 {
+    background-image: url("../img/6.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image6 {
+    background-image: url("../img/7.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.subscribe {
+    background: #92af59;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+
+h3 {
+    font: bold;
+    padding-top: 20px;
+}
+
+.search > form {
+    display: flex;
+    justify-content: center;
+}
+
+.image7 {
+    background-image: url("../img/9.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image8 {
+    background-image: url("../img/10.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.image9 {
+    background-image: url("../img/11.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 300px;
+}
+
+.space {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.space > span {
+
+    border: #0b2e13 solid 1px;
+    background: #709b1d;
+    color: white;
+
+}
+
+.brand {
+    background-image: url("../img/brand.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.information {
+    margin-top: 20px;
+    padding: 1px;
+    border: black solid 1px;
+}
+
+.why-buy-from-us {
+    margin-top: 20px;
+    padding: 1px;
+    border: black solid 1px;
+}
+
+.my-account {
+    margin-top: 20px;
+    padding: 1px;
+    border: black solid 1px;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 1px;
+    border: black solid 1px;
+}
+
+.info-back {
+    background: #f1f1f1;
+}
+
+.card {
+    background-image: url("../img/card.jpg");
+    padding: 1px;
+    border: #0b2e13 solid 1px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.card-back {
+    background-color: #e0e0e0;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #709b1d;
+    color: white;
+}
+
+.info {
+    list-style: none;
+}
+
+.logo-color::first-letter {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.contact > li {
+    list-style-type: none;
+}
+
+.home-desktop-contact {
+    margin-top: 20px;
+    background-color: #709b1d;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.ci {
+    font-weight: bold;
+    font-size: 150%;
+    padding: 20px 0;
+}
+
+.lorem {
+    border: 1px solid #000000;
+
+}
+
+
+
+.right1-1 {
+    border: solid 1px  #000000;
+}
+
+.box {
+    border: 1px solid #000000;
+    height: 250px;
+
+}
+.catcat {
+    border: 1px solid #000000;
+    background-color: #7fa522;
+    color: white;
+    font-weight: bold;
+
+}
+
+.two-page>div {
+    display: inline-block;
+}
+.links-area {
+    background-color: #709b1d;
+    height: 80px;
+}
+.step1 {
+    background-color: #eeeeee;
+}
